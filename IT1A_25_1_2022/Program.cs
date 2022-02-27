@@ -16,6 +16,10 @@ if(email.Contains("@"))
     {
         Console.WriteLine("Your email address is " + email.Length + " characters long");
     }
+    else if(email.EndsWith(".pl"))
+    {
+        Console.WriteLine("Twój adres e - mail ma długość w znakach" + email.Length);
+    }
 }
 else
 {
