@@ -1,6 +1,5 @@
-﻿Console.WriteLine("Zadejte email: ");
+﻿Console.WriteLine("Zadejte email včetně koncovky: ");
 string email = Console.ReadLine();
-email = email.Trim();
 if(email.Contains("@"))
 {
     email = email.Trim();
